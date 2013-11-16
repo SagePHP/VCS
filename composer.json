@@ -1,0 +1,24 @@
+{
+    "name": "sagephp/vcs",
+    "type": "library",
+    "description": "class to abstract interaction several vcs systems",
+    "keywords": ["sytem", "linux", "vcs", "git"],
+    "homepage": "https://github.com/SagePHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nuno Costa",
+            "email": "nuno@francodacosta.com",
+            "homepage": "http://www.francodacosta.com"
+        }
+    ],
+    "require": {
+        "sagephp/system": "dev-master"
+    },
+    "minimum-stability" : "dev",
+    "autoload": {
+        "psr-0": {
+            "SagePHP": "src/"
+        }
+    }
+}
